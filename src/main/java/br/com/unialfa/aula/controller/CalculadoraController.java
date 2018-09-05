@@ -103,36 +103,31 @@ public class CalculadoraController {
 				if(operacao == 1) {
 					String vetor[] = valor2.split("\\+");
 					double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-					resultado += aux2;
-					valor1 = String.valueOf(resultado); 
-					lblresultado.setText(valor1);
+					resultado = Double.valueOf(valor1) + aux2;
+					lblresultado.setText(String.valueOf(resultado));
 				}else {
 					if(operacao == 2) {
 						String vetor[] = valor2.split("\\-");
 						double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-						resultado -= aux2;
-						valor1 = String.valueOf(resultado); 
-						lblresultado.setText(valor1);
+						resultado = Double.valueOf(valor1) - aux2;
+						lblresultado.setText(String.valueOf(resultado));
 					}else {
 						if(operacao == 3) {
 							String vetor[] = valor2.split("\\*");
 							double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-							resultado = resultado * aux2;
-							valor1 = String.valueOf(resultado); 
-							lblresultado.setText(valor1);
+							resultado = Double.valueOf(valor1) * aux2;
+							lblresultado.setText(String.valueOf(resultado));
 						}else {
 							if(operacao == 4) {
 								String vetor[] = valor2.split("\\/");
 								double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-								resultado = resultado / aux2;
-								valor1 = String.valueOf(resultado); 
-								lblresultado.setText(valor1);
+								resultado = Double.valueOf(valor1) / aux2;
+								lblresultado.setText(String.valueOf(resultado));
 							}
 						}
 					}
 				}
 			}
-		lblresultado.setText(valor1);
 	}
 	
 	public void numero8() {
@@ -150,36 +145,31 @@ public class CalculadoraController {
 				if(operacao == 1) {
 					String vetor[] = valor2.split("\\+");
 					double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-					resultado += aux2;
-					valor1 = String.valueOf(resultado); 
-					lblresultado.setText(valor1);
+					resultado = Double.valueOf(valor1) + aux2;
+					lblresultado.setText(String.valueOf(resultado));
 				}else {
 					if(operacao == 2) {
 						String vetor[] = valor2.split("\\-");
 						double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-						resultado -= aux2;
-						valor1 = String.valueOf(resultado); 
-						lblresultado.setText(valor1);
+						resultado = Double.valueOf(valor1) - aux2;
+						lblresultado.setText(String.valueOf(resultado));
 					}else {
 						if(operacao == 3) {
 							String vetor[] = valor2.split("\\*");
 							double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-							resultado = resultado * aux2;
-							valor1 = String.valueOf(resultado); 
-							lblresultado.setText(valor1);
+							resultado = Double.valueOf(valor1) * aux2;
+							lblresultado.setText(String.valueOf(resultado));
 						}else {
 							if(operacao == 4) {
 								String vetor[] = valor2.split("\\/");
 								double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-								resultado = resultado / aux2;
-								valor1 = String.valueOf(resultado); 
-								lblresultado.setText(valor1);
+								resultado = Double.valueOf(valor1) / aux2;
+								lblresultado.setText(String.valueOf(resultado));
 							}
 						}
 					}
 				}
 			}
-		lblresultado.setText(valor1);
 	}
 	
 	public void numero7() {
@@ -197,36 +187,31 @@ public class CalculadoraController {
 				if(operacao == 1) {
 					String vetor[] = valor2.split("\\+");
 					double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-					resultado += aux2;
-					valor1 = String.valueOf(resultado); 
-					lblresultado.setText(valor1);
+					resultado = Double.valueOf(valor1) + aux2;
+					lblresultado.setText(String.valueOf(resultado));
 				}else {
 					if(operacao == 2) {
 						String vetor[] = valor2.split("\\-");
 						double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-						resultado -= aux2;
-						valor1 = String.valueOf(resultado); 
-						lblresultado.setText(valor1);
+						resultado = Double.valueOf(valor1) - aux2;
+						lblresultado.setText(String.valueOf(resultado));
 					}else {
 						if(operacao == 3) {
 							String vetor[] = valor2.split("\\*");
 							double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-							resultado = resultado * aux2;
-							valor1 = String.valueOf(resultado); 
-							lblresultado.setText(valor1);
+							resultado = Double.valueOf(valor1) * aux2;
+							lblresultado.setText(String.valueOf(resultado));
 						}else {
 							if(operacao == 4) {
 								String vetor[] = valor2.split("\\/");
 								double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-								resultado = resultado / aux2;
-								valor1 = String.valueOf(resultado); 
-								lblresultado.setText(valor1);
+								resultado = Double.valueOf(valor1) / aux2;
+								lblresultado.setText(String.valueOf(resultado));
 							}
 						}
 					}
 				}
 			}
-		lblresultado.setText(valor1);
 	}
 	
 	public void numero6() {
@@ -244,36 +229,31 @@ public class CalculadoraController {
 				if(operacao == 1) {
 					String vetor[] = valor2.split("\\+");
 					double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-					resultado += aux2;
-					valor1 = String.valueOf(resultado); 
-					lblresultado.setText(valor1);
+					resultado = Double.valueOf(valor1) + aux2;
+					lblresultado.setText(String.valueOf(resultado));
 				}else {
 					if(operacao == 2) {
 						String vetor[] = valor2.split("\\-");
 						double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-						resultado -= aux2;
-						valor1 = String.valueOf(resultado); 
-						lblresultado.setText(valor1);
+						resultado = Double.valueOf(valor1) - aux2;
+						lblresultado.setText(String.valueOf(resultado));
 					}else {
 						if(operacao == 3) {
 							String vetor[] = valor2.split("\\*");
 							double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-							resultado = resultado * aux2;
-							valor1 = String.valueOf(resultado); 
-							lblresultado.setText(valor1);
+							resultado = Double.valueOf(valor1) * aux2;
+							lblresultado.setText(String.valueOf(resultado));
 						}else {
 							if(operacao == 4) {
 								String vetor[] = valor2.split("\\/");
 								double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-								resultado = resultado / aux2;
-								valor1 = String.valueOf(resultado); 
-								lblresultado.setText(valor1);
+								resultado = Double.valueOf(valor1) / aux2;
+								lblresultado.setText(String.valueOf(resultado));
 							}
 						}
 					}
 				}
 			}
-		lblresultado.setText(valor1);
 	}
 	
 	public void numero5() {
@@ -291,36 +271,31 @@ public class CalculadoraController {
 				if(operacao == 1) {
 					String vetor[] = valor2.split("\\+");
 					double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-					resultado += aux2;
-					valor1 = String.valueOf(resultado); 
-					lblresultado.setText(valor1);
+					resultado = Double.valueOf(valor1) + aux2;
+					lblresultado.setText(String.valueOf(resultado));
 				}else {
 					if(operacao == 2) {
 						String vetor[] = valor2.split("\\-");
 						double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-						resultado -= aux2;
-						valor1 = String.valueOf(resultado); 
-						lblresultado.setText(valor1);
+						resultado = Double.valueOf(valor1) - aux2;
+						lblresultado.setText(String.valueOf(resultado));
 					}else {
 						if(operacao == 3) {
 							String vetor[] = valor2.split("\\*");
 							double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-							resultado = resultado * aux2;
-							valor1 = String.valueOf(resultado); 
-							lblresultado.setText(valor1);
+							resultado = Double.valueOf(valor1) * aux2;
+							lblresultado.setText(String.valueOf(resultado));
 						}else {
 							if(operacao == 4) {
 								String vetor[] = valor2.split("\\/");
 								double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-								resultado = resultado / aux2;
-								valor1 = String.valueOf(resultado); 
-								lblresultado.setText(valor1);
+								resultado = Double.valueOf(valor1) / aux2;
+								lblresultado.setText(String.valueOf(resultado));
 							}
 						}
 					}
 				}
 			}
-		lblresultado.setText(valor1);
 	}
 	
 	public void numero4() {
@@ -338,36 +313,31 @@ public class CalculadoraController {
 				if(operacao == 1) {
 					String vetor[] = valor2.split("\\+");
 					double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-					resultado += aux2;
-					valor1 = String.valueOf(resultado); 
-					lblresultado.setText(valor1);
+					resultado = Double.valueOf(valor1) + aux2;
+					lblresultado.setText(String.valueOf(resultado));
 				}else {
 					if(operacao == 2) {
 						String vetor[] = valor2.split("\\-");
 						double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-						resultado -= aux2;
-						valor1 = String.valueOf(resultado); 
-						lblresultado.setText(valor1);
+						resultado = Double.valueOf(valor1) - aux2;
+						lblresultado.setText(String.valueOf(resultado));
 					}else {
 						if(operacao == 3) {
 							String vetor[] = valor2.split("\\*");
 							double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-							resultado = resultado * aux2;
-							valor1 = String.valueOf(resultado); 
-							lblresultado.setText(valor1);
+							resultado = Double.valueOf(valor1) * aux2;
+							lblresultado.setText(String.valueOf(resultado));
 						}else {
 							if(operacao == 4) {
 								String vetor[] = valor2.split("\\/");
 								double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-								resultado = resultado / aux2;
-								valor1 = String.valueOf(resultado); 
-								lblresultado.setText(valor1);
+								resultado = Double.valueOf(valor1) / aux2;
+								lblresultado.setText(String.valueOf(resultado));
 							}
 						}
 					}
 				}
 			}
-		lblresultado.setText(valor1);
 	}
 	
 	public void numero3() {
@@ -385,36 +355,31 @@ public class CalculadoraController {
 				if(operacao == 1) {
 					String vetor[] = valor2.split("\\+");
 					double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-					resultado += aux2;
-					valor1 = String.valueOf(resultado); 
-					lblresultado.setText(valor1);
+					resultado = Double.valueOf(valor1) + aux2;
+					lblresultado.setText(String.valueOf(resultado));
 				}else {
 					if(operacao == 2) {
 						String vetor[] = valor2.split("\\-");
 						double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-						resultado -= aux2;
-						valor1 = String.valueOf(resultado); 
-						lblresultado.setText(valor1);
+						resultado = Double.valueOf(valor1) - aux2;
+						lblresultado.setText(String.valueOf(resultado));
 					}else {
 						if(operacao == 3) {
 							String vetor[] = valor2.split("\\*");
 							double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-							resultado = resultado * aux2;
-							valor1 = String.valueOf(resultado); 
-							lblresultado.setText(valor1);
+							resultado = Double.valueOf(valor1) * aux2;
+							lblresultado.setText(String.valueOf(resultado));
 						}else {
 							if(operacao == 4) {
 								String vetor[] = valor2.split("\\/");
 								double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-								resultado = resultado / aux2;
-								valor1 = String.valueOf(resultado); 
-								lblresultado.setText(valor1);
+								resultado = Double.valueOf(valor1) / aux2;
+								lblresultado.setText(String.valueOf(resultado));
 							}
 						}
 					}
 				}
 			}
-		lblresultado.setText(valor1);
 	}
 	
 	public void numero2() {
@@ -432,36 +397,31 @@ public class CalculadoraController {
 				if(operacao == 1) {
 					String vetor[] = valor2.split("\\+");
 					double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-					resultado += aux2;
-					valor1 = String.valueOf(resultado); 
-					lblresultado.setText(valor1);
+					resultado = Double.valueOf(valor1) + aux2;
+					lblresultado.setText(String.valueOf(resultado));
 				}else {
 					if(operacao == 2) {
 						String vetor[] = valor2.split("\\-");
 						double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-						resultado -= aux2;
-						valor1 = String.valueOf(resultado); 
-						lblresultado.setText(valor1);
+						resultado = Double.valueOf(valor1) - aux2;
+						lblresultado.setText(String.valueOf(resultado));
 					}else {
 						if(operacao == 3) {
 							String vetor[] = valor2.split("\\*");
 							double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-							resultado = resultado * aux2;
-							valor1 = String.valueOf(resultado); 
-							lblresultado.setText(valor1);
+							resultado = Double.valueOf(valor1) * aux2;
+							lblresultado.setText(String.valueOf(resultado));
 						}else {
 							if(operacao == 4) {
 								String vetor[] = valor2.split("\\/");
 								double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-								resultado = resultado / aux2;
-								valor1 = String.valueOf(resultado); 
-								lblresultado.setText(valor1);
+								resultado = Double.valueOf(valor1) / aux2;
+								lblresultado.setText(String.valueOf(resultado));
 							}
 						}
 					}
 				}
 			}
-		lblresultado.setText(valor1);
 	}
 	
 	public void numero1() {
@@ -479,37 +439,32 @@ public class CalculadoraController {
 				if(operacao == 1) {
 					String vetor[] = valor2.split("\\+");
 					double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-					resultado += aux2;
-					valor1 = String.valueOf(resultado); 
-					lblresultado.setText(valor1);
+					resultado = Double.valueOf(valor1) + aux2;
+					lblresultado.setText(String.valueOf(resultado));
 				}else {
 					if(operacao == 2) {
 						String vetor[] = valor2.split("\\-");
 						double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-						resultado -= aux2;
-						valor1 = String.valueOf(resultado); 
-						lblresultado.setText(valor1);
+						resultado = Double.valueOf(valor1) - aux2;
+						lblresultado.setText(String.valueOf(resultado));
 					}else {
 						if(operacao == 3) {
 							String vetor[] = valor2.split("\\*");
 							double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-							resultado = resultado * aux2;
-							valor1 = String.valueOf(resultado); 
-							lblresultado.setText(valor1);
+							resultado = Double.valueOf(valor1) * aux2;
+							lblresultado.setText(String.valueOf(resultado));
 						}else {
 							if(operacao == 4) {
 								String vetor[] = valor2.split("\\/");
 								double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-								resultado = resultado / aux2;
-								valor1 = String.valueOf(resultado); 
-								lblresultado.setText(valor1);
+								resultado = Double.valueOf(valor1) / aux2;
+								lblresultado.setText(String.valueOf(resultado));
 							}
 						}
 					}
 				}
 				
 			}
-		lblresultado.setText(valor1);
 	}
 	
 	public void numero0() {
@@ -527,27 +482,24 @@ public class CalculadoraController {
 				if(operacao == 1) {
 					String vetor[] = valor2.split("\\+");
 					double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-					resultado += aux2;
-					valor1 = String.valueOf(resultado); 
-					lblresultado.setText(valor1);
+					resultado = Double.valueOf(valor1) + aux2;
+					lblresultado.setText(String.valueOf(resultado));
 				}else {
 					if(operacao == 2) {
 						String vetor[] = valor2.split("\\-");
 						double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-						resultado -= aux2;
-						valor1 = String.valueOf(resultado); 
-						lblresultado.setText(valor1);
+						resultado = Double.valueOf(valor1) - aux2;
+						lblresultado.setText(String.valueOf(resultado));
 					}else {
 						if(operacao == 3) {
 							String vetor[] = valor2.split("\\*");
 							double aux2 = Double.valueOf(vetor[vetor.length - 1].trim());
-							resultado = resultado * aux2;
-							valor1 = String.valueOf(resultado); 
-							lblresultado.setText(valor1);
+							resultado = Double.valueOf(valor1) * aux2;
+							lblresultado.setText(String.valueOf(resultado));
 						}else {
 							if(operacao == 4) { 
 								valor1 = "Erro";
-								lblresultado.setText(valor1);
+								lblresultado.setText(String.valueOf(resultado));
 							}
 						}
 					}
@@ -561,6 +513,7 @@ public class CalculadoraController {
 		aux = txta.getText();
 		aux += "+";
 		txta.setText(aux);
+		valor1 = String.valueOf(resultado);
 
 	//	String txtValorA = txta.getText();
 		//String txtValorB = txtb.getText();
@@ -577,6 +530,7 @@ public class CalculadoraController {
 		aux = txta.getText();
 		aux += "-";
 		txta.setText(aux);
+		valor1 = String.valueOf(resultado); 
 //		String txtValorA = txta.getText();
 //		String txtValorB = txtb.getText();
 //		
@@ -593,6 +547,7 @@ public class CalculadoraController {
 		aux = txta.getText();
 		aux += "*";
 		txta.setText(aux);
+		valor1 = String.valueOf(resultado); 
 //		String txtValorA = txta.getText();
 //		String txtValorB = txtb.getText();
 //		
@@ -608,6 +563,7 @@ public class CalculadoraController {
 		aux = txta.getText();
 		aux += "/";
 		txta.setText(aux);
+		valor1 = String.valueOf(resultado); 
 //		String txtValorA = txta.getText();
 //		String txtValorB = txtb.getText();
 //		

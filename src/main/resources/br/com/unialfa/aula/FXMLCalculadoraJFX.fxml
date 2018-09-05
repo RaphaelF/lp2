@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXTextField fx:id="txta" layoutX="31.0" layoutY="52.0" prefHeight="0.0" prefWidth="158.0" unFocusColor="#8d8a8a">
+         <focusColor>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#4074bc" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </focusColor>
+         <font>
+            <Font size="13.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </JFXTextField>
+      <Label fx:id="lblresultado" layoutX="250.0" layoutY="46.0" prefHeight="63.0" prefWidth="185.0" text="Label">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="31.0" layoutY="173.0" prefHeight="40.0" prefWidth="45.0" text="7" textFill="#368ed6" textOverrun="WORD_ELLIPSIS">
+         <ripplerFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#3230b2" />
+                  <Stop color="#bcb2b2" offset="0.007662835249042145" />
+                  <Stop color="#88a5d3" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </ripplerFill>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </JFXButton>
+      <JFXButton layoutX="163.0" layoutY="173.0" prefHeight="40.0" prefWidth="45.0" />
+      <JFXButton layoutX="31.0" layoutY="209.0" prefHeight="40.0" prefWidth="45.0" />
+      <JFXButton layoutX="99.0" layoutY="209.0" prefHeight="40.0" prefWidth="45.0" />
+      <JFXButton layoutX="163.0" layoutY="209.0" prefHeight="40.0" prefWidth="45.0" />
+      <JFXButton layoutX="31.0" layoutY="246.0" prefHeight="40.0" prefWidth="45.0" />
+      <JFXButton layoutX="99.0" layoutY="246.0" prefHeight="40.0" prefWidth="45.0" />
+      <JFXButton layoutX="163.0" layoutY="239.0" prefHeight="40.0" prefWidth="45.0" />
+      <JFXButton layoutX="99.0" layoutY="282.0" prefHeight="40.0" prefWidth="45.0" />
+      <JFXButton blendMode="HARD_LIGHT" buttonType="RAISED" layoutX="99.0" layoutY="125.0" prefHeight="40.0" prefWidth="45.0" text="C" textFill="#0b3957" textOverrun="WORD_ELLIPSIS">
+         <ripplerFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#3230b2" />
+                  <Stop color="BLACK" offset="0.007662835249042145" />
+                  <Stop color="#312fb1" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </ripplerFill>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </JFXButton>
+      <JFXButton blendMode="HARD_LIGHT" layoutX="234.0" layoutY="125.0" prefHeight="40.0" prefWidth="45.0" text="+" textFill="#0b42c3" textOverrun="WORD_ELLIPSIS">
+         <ripplerFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#083172" />
+                  <Stop color="#5279d7" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </ripplerFill>
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </JFXButton>
+      <JFXButton blendMode="HARD_LIGHT" layoutX="234.0" layoutY="214.0" prefHeight="40.0" prefWidth="45.0" text="*" textFill="#0c42c2" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <ripplerFill>
+            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REFLECT" radius="0.5">
+               <stops>
+                  <Stop color="#093270" />
+                  <Stop color="#547bd6" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </ripplerFill>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </JFXButton>
+      <JFXButton blendMode="HARD_LIGHT" layoutX="234.0" layoutY="257.0" prefHeight="40.0" prefWidth="45.0" text="/" textFill="#0c42c2" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <ripplerFill>
+            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REFLECT" radius="0.5">
+               <stops>
+                  <Stop color="#083172" />
+                  <Stop color="#5379d7" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </ripplerFill>
+      </JFXButton>
+      <JFXButton blendMode="HARD_LIGHT" layoutX="230.0" layoutY="309.0" prefHeight="51.0" prefWidth="53.0" text="=" textFill="#0c42c2" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <ripplerFill>
+            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REFLECT" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#312fb1" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </ripplerFill>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </JFXButton>
+      <JFXButton blendMode="HARD_LIGHT" layoutX="234.0" layoutY="165.0" prefHeight="40.0" prefWidth="45.0" text="-" textFill="#0b42c3" textOverrun="WORD_ELLIPSIS">
+         <ripplerFill>
+            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REFLECT" radius="0.5">
+               <stops>
+                  <Stop color="#083172" />
+                  <Stop color="#5279d7" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </ripplerFill>
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </JFXButton>
+      <JFXButton layoutX="96.0" layoutY="166.0" prefHeight="40.0" prefWidth="45.0" text="8" textFill="#3790d4">
+         <ripplerFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#3230b2" />
+                  <Stop color="#bcb2b2" offset="0.007662835249042145" />
+                  <Stop color="#88a5d3" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </ripplerFill>
+      </JFXButton>
+   </children>
+</AnchorPane>
